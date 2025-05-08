@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punk Coin Collector</title>
+    <style>
+        body {
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Courier New', monospace;
+            color: white;
+            overflow: hidden;
+        }
+        
+        canvas {
+            border: 4px solid #fff;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            image-rendering: pixelated; /* Mantiene l'aspetto pixel art */
+        }
+        
+        .game-container {
+            text-align: center;
+            position: relative;
+        }
+        
+        h1 {
+            color: #ff6b6b;
+            text-shadow: 2px 2px 0 #000;
+            margin-bottom: 10px;
+        }
+        
+        .status-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+            background-color: #333;
+            border: 2px solid #555;
+            margin-bottom: 10px;
+        }
+        
+        .coins {
+            color: gold;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>PUNK COIN COLLECTOR</h1>
+        <div class="status-bar">
+            <div>Tempo: <span id="time">0</span>s</div>
+            <div class="coins">Monete: <span id="coins">0</span>/<span id="total-coins">0</span></div>
+        </div>
+        <canvas id="gameCanvas" width="640" height="480"></canvas>
+        <p>Usa le frecce ← ↑ → ↓ per muoverti nella città</p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+<div class="game-ui">
+    <p>Monete: <span id="coins">0</span></p>
+    <p>Totale: <span id="total-coins">0</span></p>
+    <p>Tempo: <span id="time">00:00</span></p>
+    <p>Ricercato: <span id="wanted-level">0</span></p> <!-- AGGIUNGI QUESTO -->
+</div>
+/*
+<div id="player-stats" style="position: absolute; top: 10px; right: 10px; color: white; background-color: rgba(0,0,0,0.5); padding: 5px; border-radius: 3px; font-family: 'Press Start 2P', sans-serif; font-size: calc(3px * 4);">
+    <p style="margin: 2px 0;">Punti Skill: <span id="skill-points">0</span></p>
+    <div id="health-bar-container" style="width: 100px; height: calc(3px * 5); background-color: #555; border: 1px solid #ccc; margin-top: 3px;">
+        <div id="health-bar-fill" style="width: 100%; height: 100%; background-color: green;"></div>
+    </div>
+    <p id="health-bar-text" style="margin: 1px 0; font-size: calc(3px*3); text-align: center;">100 / 100</p>
+</div>
+*/
+```
