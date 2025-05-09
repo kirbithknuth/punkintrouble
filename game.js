@@ -15,10 +15,6 @@ const ZONE_FOCUS_POINTS = {
     [ZONES.CENTRO]: { x: CITY_WIDTH / 2, y: CITY_HEIGHT / 2, type: 'police_hq' } // Quartier generale polizia
 };
 
-const CITY_WIDTH = GAME_WIDTH * 4;
-const CITY_HEIGHT = GAME_HEIGHT * 4;
-
-
 const MAX_DIFFICULTY_DISTANCE = Math.min(CITY_WIDTH, CITY_HEIGHT) / 3.5; // Distanza per calo difficoltà
 
 // Tipi di Poliziotti
