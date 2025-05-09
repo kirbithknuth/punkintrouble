@@ -1,14 +1,25 @@
-// --- INIZIO CONFIGURAZIONI GLOBALI ---
+// Riga 1 del file game.js
+console.log("Inizio script game.js");
 
-// 1. Costanti di base per la visualizzazione e la scala
 const GAME_WIDTH = 800;
-const GAME_HEIGHT = 600;
-const PIXEL_SIZE = 3;
+console.log("GAME_WIDTH definito:", GAME_WIDTH);
 
-// 2. Costanti per le dimensioni effettive della città 
-//    Queste erano mancanti o definite troppo tardi!
-const CITY_WIDTH = GAME_WIDTH * 4;   // 
-const CITY_HEIGHT = GAME_HEIGHT * 4; // 
+const GAME_HEIGHT = 600;
+console.log("GAME_HEIGHT definito:", GAME_HEIGHT);
+
+const PIXEL_SIZE = 3;
+console.log("PIXEL_SIZE definito:", PIXEL_SIZE);
+
+const CITY_WIDTH = GAME_WIDTH * 4;
+console.log("CITY_WIDTH definito:", CITY_WIDTH); // DOVREBBE STAMPARE 3200
+
+const CITY_HEIGHT = GAME_HEIGHT * 4;
+console.log("CITY_HEIGHT definito:", CITY_HEIGHT); // DOVREBBE STAMPARE 2400
+
+const ZONES = {
+    NORD: 'NORD', SUD: 'SUD', EST: 'EST', OVEST: 'OVEST', CENTRO: 'CENTRO', NONE: 'NONE'
+};
+console.log("ZONES definito:", ZONES);
 
 // 3. Definisci ZONES
 const ZONES = {
