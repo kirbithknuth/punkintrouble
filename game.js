@@ -84,9 +84,6 @@ let playerRangedAttackCooldown = 0;
 
 
 // ========== IMPOSTAZIONI DI BASE DEL GIOCO (ESISTENTI E FUSE) ==========
-const CITY_WIDTH = GAME_WIDTH * 4;
-const CITY_HEIGHT = GAME_HEIGHT * 4;
-
 const INTERACTION_RANGE = 50 * PIXEL_SIZE; // Scalato con PIXEL_SIZE
 const NPC_COUNT = 25; // Leggermente ridotto
 const POLICE_COUNT_BASE = 5; // Numero base, poi varia con zone
