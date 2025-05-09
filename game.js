@@ -1,12 +1,20 @@
-    //Zone_della_Città
-const ZONES = {
-    NORD: 'NORD', SUD: 'SUD', EST: 'EST', OVEST: 'OVEST', CENTRO: 'CENTRO', NONE: 'NONE'
-};
+// --- INIZIO CONFIGURAZIONI GLOBALI ---
+
+// 1. Costanti di base per la visualizzazione e la scala
 const GAME_WIDTH = 800;
 const GAME_HEIGHT = 600;
 const PIXEL_SIZE = 3;
 
-// Punti focali per la difficoltà (coordinate esempio, da adattare)
+// 2. Costanti per le dimensioni effettive della città 
+//    Queste erano mancanti o definite troppo tardi!
+const CITY_WIDTH = GAME_WIDTH * 4;   // 
+const CITY_HEIGHT = GAME_HEIGHT * 4; // 
+
+// 3. Definisci ZONES
+const ZONES = {
+    NORD: 'NORD', SUD: 'SUD', EST: 'EST', OVEST: 'OVEST', CENTRO: 'CENTRO', NONE: 'NONE'
+};
+// Punti focali per la difficoltà 
 const ZONE_FOCUS_POINTS = {
     [ZONES.NORD]: { x: CITY_WIDTH / 2, y: CITY_HEIGHT * 0.15, type: 'church' }, // Esempio: una chiesa a nord
     [ZONES.SUD]: { x: CITY_WIDTH / 2, y: CITY_HEIGHT * 0.85, type: 'gang_hideout' }, // Esempio: covo gang a sud
