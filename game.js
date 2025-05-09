@@ -1,4 +1,4 @@
-    Zone_della_Città
+    //Zone_della_Città
 const ZONES = {
     NORD: 'NORD', SUD: 'SUD', EST: 'EST', OVEST: 'OVEST', CENTRO: 'CENTRO', NONE: 'NONE'
 };
