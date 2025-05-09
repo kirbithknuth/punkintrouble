@@ -5,8 +5,7 @@ const ZONES = {
 const GAME_WIDTH = 800;
 const GAME_HEIGHT = 600;
 const PIXEL_SIZE = 3;
-const CITY_WIDTH = GAME_WIDTH * 4;
-const CITY_HEIGHT = GAME_HEIGHT * 4;
+
 // Punti focali per la difficoltà (coordinate esempio, da adattare)
 const ZONE_FOCUS_POINTS = {
     [ZONES.NORD]: { x: CITY_WIDTH / 2, y: CITY_HEIGHT * 0.15, type: 'church' }, // Esempio: una chiesa a nord
@@ -16,6 +15,8 @@ const ZONE_FOCUS_POINTS = {
     [ZONES.CENTRO]: { x: CITY_WIDTH / 2, y: CITY_HEIGHT / 2, type: 'police_hq' } // Quartier generale polizia
 };
 
+const CITY_WIDTH = GAME_WIDTH * 4;
+const CITY_HEIGHT = GAME_HEIGHT * 4;
 
 
 const MAX_DIFFICULTY_DISTANCE = Math.min(CITY_WIDTH, CITY_HEIGHT) / 3.5; // Distanza per calo difficoltà
