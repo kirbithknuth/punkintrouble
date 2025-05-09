@@ -84,10 +84,6 @@ let playerRangedAttackCooldown = 0;
 
 
 // ========== IMPOSTAZIONI DI BASE DEL GIOCO (ESISTENTI E FUSE) ==========
-const GAME_WIDTH = 800;
-const GAME_HEIGHT = 600;
-const PIXEL_SIZE = 3;
-
 const CITY_WIDTH = GAME_WIDTH * 4;
 const CITY_HEIGHT = GAME_HEIGHT * 4;
 
