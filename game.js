@@ -15,7 +15,6 @@ const ZONE_FOCUS_POINTS = {
     [ZONES.OVEST]: { x: CITY_WIDTH * 0.15, y: CITY_HEIGHT / 2, type: 'industrial' }, // Esempio: zona industriale ovest
     [ZONES.CENTRO]: { x: CITY_WIDTH / 2, y: CITY_HEIGHT / 2, type: 'police_hq' } // Quartier generale polizia
 };
-const MAX_DIFFICULTY_DISTANCE = Math.min(CITY_WIDTH, CITY_HEIGHT) / 3.5; // Distanza per calo difficoltà
 
 
 
